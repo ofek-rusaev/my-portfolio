@@ -1,0 +1,115 @@
+[
+    {
+        "id": "1",
+        "title": "Worldwider",
+        "description": "Traveling app that allows you to book tours or become a local guide",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/worldwider01.png",
+            "images/projects/worldwider02.png"
+        ],
+        "technical": [
+            "VUEX",
+            "NODE.JS",
+            "MONGODB",
+            "SOCKET.IO",
+            "SASS",
+            "ES6"
+        ],
+        "github": "https://github.com/ofek-rusaev/worldwider-backend",
+        "website": "https://worldwider.herokuapp.com/"
+    },
+    {
+        "id": "2",
+        "title": "Appsus",
+        "description": "Keep your emails and notes with style in one app",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/appsus01.png",
+            "images/projects/appsus02.png",
+            "images/projects/appsus03.png"
+        ],
+        "technical": [
+            "VUE",
+            "CSS3",
+            "ES6",
+            "HTML5",
+            "UI/UX",
+            "GRAPHIC DESIGN"
+        ],
+        "github": "https://github.com/ofek-rusaev/appsus-proj",
+        "website": "https://ofek-rusaev.github.io/appsus-proj/#/"
+    },
+    {
+        "id": "3",
+        "title": "Meme Generator",
+        "description": "Create, download & share your own cool memes",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/memeGen01.png"
+        ],
+        "technical": [
+            "CANVAS",
+            "HTML5",
+            "CSS3",
+            "MVC",
+            "ES6"
+        ],
+        "github": "https://github.com/ofek-rusaev/meme-generator-proj",
+        "website": "https://ofek-rusaev.github.io/meme-generator-proj/#"
+    },
+    {
+        "id": "4",
+        "title": "Bookshop",
+        "description": "Manage your own bookshop",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/bookshop01.png",
+            "images/projects/bookshop02.png"
+        ],
+        "technical": [
+            "HTML5",
+            "CSS3",
+            "MVC",
+            "ES6"
+        ],
+        "github": "https://github.com/ofek-rusaev/bookshop-project",
+        "website": "https://ofek-rusaev.github.io/bookshop-project/"
+    },
+    {
+        "id": "5",
+        "title": "Mister Toy",
+        "description": "Manage your toys shop",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/misterToy01.png",
+            "images/projects/misterToy02.png"
+        ],
+        "technical": [
+            "VUE",
+            "NODE.JS",
+            "EXPRESS",
+            "MONGODB",
+            "HTML5",
+            "CSS3",
+            "ES6"
+        ],
+        "website": "https://hidden-shelf-87158.herokuapp.com/#/toys"
+    },
+    {
+        "id": "6",
+        "title": "Minesweeper",
+        "description": "My first project is a classic single-player puzzle game",
+        "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis autem animi dolor vero minima aperiam suscipit a? Voluptas vel eveniet porro dolore rem, iure tempora recusandae consequuntur maiores laudantium magnam.",
+        "images": [
+            "images/projects/minesweeper01.PNG"
+        ],
+        "technical": [
+            "JAVASCRIPT",
+            "HTML5",
+            "CSS3"
+        ],
+        "github": "https://github.com/ofek-rusaev/minesweepers-sprint",
+        "website": "https://ofek-rusaev.github.io/minesweepers-sprint/"
+    }
+]

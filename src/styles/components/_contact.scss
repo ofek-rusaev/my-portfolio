@@ -1,0 +1,33 @@
+.contact {
+    margin-bottom: rem(80px);
+    // margin-top: rem(180px);
+    // margin-top: 150px;
+
+    &-form-submit {
+        color: #fff;
+        max-width: rem(200px);
+        cursor: pointer;
+        background: #00cdb9;
+        letter-spacing: 1px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+
+        margin: auto;
+        margin-top: rem(30px);
+        display: block;
+    }
+}
+
+@media (max-width: 440px) {
+    form {
+        width: 350px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    form {
+        width: 330px;
+    }
+}

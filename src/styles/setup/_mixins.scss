@@ -1,0 +1,59 @@
+/* Breakpoint mixins */
+@mixin mobile {
+    @media (max-width: $mobile-breakpoint) {
+        @content;
+    }
+}
+
+@mixin narrow {
+    @media (min-width: $mobile-breakpoint) {
+        @content;
+    }
+}
+
+@mixin normal {
+    @media (min-width: $narrow-breakpoint) {
+        @content;
+    }
+}
+
+@mixin wide {
+    @media (min-width: $normal-breakpoint) {
+        @content;
+    }
+}
+
+/* Media  mixins */
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+
+    >* {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    >img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+// Mixin for removing hover effects on iPhone screen
+@mixin hover-supported {
+    @media not all and (pointer: coarse) {
+        &:hover {
+            @content;
+        }
+    }
+}
