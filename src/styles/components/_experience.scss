@@ -20,6 +20,27 @@
     }
 }
 
+.download {
+    padding: 60px 0 10px 0;
+    text-align: center;
+
+    &-cv {
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 13px;
+        cursor: pointer;
+        background: #00cdb9;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        min-height: 44px;
+        padding: 10px 30px;
+        max-width: rem(200px);
+        // margin: auto;
+    }
+}
+
 @media (max-width: 640px) {
 
     // @media (max-width: $mobile) {

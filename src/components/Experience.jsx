@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../documents/Ofek Rusaev - CV.pdf';
 
 const Experience = () => {
     return (
@@ -34,6 +35,10 @@ const Experience = () => {
                 <li>Monitoring risk, reviewing service providers to company client database and processing projects</li>
                 <li>Handling accounting and finance tasks</li>
             </ul>
+            <div className="download">
+                <a href={Resume} download className="download-cv">Download Resume</a>
+            </div>
+
             {/* <h3>2010 – 2014	Travel and work abroad</h3> */}
             {/* <h3>2006 – 2008	Full service at “Shalishut” in IDF</h3> */}
             <div className="wave-container">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import profile_pic from '../images/home/profile_pic.png';
-import Resume from '../documents/Ofek Rusaev - CV.pdf';
+// import Resume from '../documents/Ofek Rusaev - CV.pdf';
 
 // Skills logos
 import esLogo from '../images/skills/es6.png'
@@ -30,10 +30,10 @@ const About = () => {
                 <section className="about-info">
                     <div>
                         <p>Hi, I'm Ofek Rusaev. Full stack developer based in Tel Aviv.</p>
-                        <p>I am Dynamic and Creative person with passion for pixel perfect design and solving challenges.</p>
+                        <p>I am dynamic and creative person with passion for pixel perfect design and solving challenges.</p>
                         <p>Graduate of the Coding Academy - Intensive Coding Bootcamp (640+ hours) that qualifies Full Stack developers</p>
                     </div>
-                    <button className="download-btn"><a href={Resume} download>Download Resume</a></button>
+                    {/* <a href={Resume} download className="download-cv">Download Resume</a> */}
                 </section>
             </section>
             <p className="skills">Here are few of my skills...</p>

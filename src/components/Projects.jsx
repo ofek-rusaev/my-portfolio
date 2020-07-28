@@ -8,7 +8,7 @@ const Projects = (props) => {
         <div id="projects" className="projects">
             <section className="section-title">
                 <h2>PORTFOLIO</h2>
-                <p>Here are some of my projects... You can view more of my work on <a href="https://github.com/ofek-rusaev" target="_blank" rel="noopener noreferrer">GitHub </a></p>
+                <p>Here are some of my projects. You can view more of my work on <a href="https://github.com/ofek-rusaev" target="_blank" rel="noopener noreferrer">GitHub </a></p>
             </section>
             <section className="projects-container">
                 {(projects.length) ? (<ProjectList projects={projects} />) : (<h2>Loading...</h2>)}

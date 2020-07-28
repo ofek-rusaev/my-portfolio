@@ -71,23 +71,30 @@
 
             a {
                 font-size: rem(30px);
-
             }
         }
     }
 }
 
-// @media (max-width: 440px) {
-    //     .home {
-    //         .wave-container {
-    //             bottom: -90px;
-    //         }
-    //     }
-    // }
+@media (max-width: 440px) {
+    .home {
+        .wave-container {
+            bottom: -90px;
+        }
+    }
+}
 
-    // @media (max-width: 376px) {
+@media (max-width: 376px) {
 
-    //     .home .wave-container {
-    //         bottom: -210px;
-    //     }
-    // }
+    .home {
+        &-inner {
+            h1 {
+                font-size: rem(20px);
+            }
+        }
+
+        .wave-container {
+            bottom: 0;
+        }
+    }
+}
