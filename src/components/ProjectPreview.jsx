@@ -18,11 +18,15 @@ const ProjectPreview = (props) => {
                         return <li key={i}>{tech}</li>
                     }))}
                 </ul>
-                {/* <div className="links"> */}
-                <a href={project.website} target="_blank" rel="noopener noreferrer">
-                    View Project
+                <div className="project-links">
+
+                    {project.github ?
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">View Code</a> : ''
+                    }
+                    <a href={project.website} target="_blank" rel="noopener noreferrer">
+                        View Project
                     </a>
-                {/* </div> */}
+                </div>
             </div>
 
         </div>
