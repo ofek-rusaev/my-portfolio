@@ -45,23 +45,26 @@
     // margin-bottom: 25px
 }
 
-@media (max-width: 780px) {
-
-    // @media (max-width: $tablet) {
+@media (max-width: 1024px) {
     .home {
         .wave-container {
             margin-bottom: -284px;
-            bottom: -20px;
+            bottom: -120px;
         }
     }
 }
 
 @media (max-width: 640px) {
+    .home:before {
+        height: 96.8%;
+    }
 
     // @media (max-width: $tablet) {
     .home {
+        height: 97vh;
+
         .wave-container {
-            bottom: -20px;
+            bottom: -162px;
         }
 
         &-inner {
@@ -71,18 +74,19 @@
 
             a {
                 font-size: rem(30px);
+                padding-top: 100px;
             }
         }
     }
 }
 
-@media (max-width: 440px) {
-    .home {
-        .wave-container {
-            bottom: -90px;
-        }
-    }
-}
+// @media (max-width: 440px) {
+//     .home {
+//         .wave-container {
+//             bottom: -90px;
+//         }
+//     }
+// }
 
 @media (max-width: 376px) {
 

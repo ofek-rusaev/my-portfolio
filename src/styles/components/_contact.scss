@@ -1,7 +1,5 @@
 .contact {
     margin-bottom: rem(80px);
-    // margin-top: rem(180px);
-    // margin-top: 150px;
 
     &-form-submit {
         color: #fff;
@@ -16,6 +14,10 @@
         margin: auto;
         margin-top: rem(30px);
         display: block;
+    }
+
+    .section-title {
+        padding-bottom: 40px;
     }
 }
 

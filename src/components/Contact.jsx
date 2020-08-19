@@ -41,6 +41,7 @@ class Contact extends Component {
             <div id="contact" className="contact">
                 <section className="section-title">
                     <h2>GET IN TOUCH</h2>
+                    {/* <p>Tel: +972(502)776771 || Email: ofek2602@gmail.com</p> */}
                     <p>Thanks for stopping by</p>
                     <p>Please feel free to drop me a message</p>
                 </section>
