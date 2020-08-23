@@ -80,13 +80,13 @@
     }
 }
 
-// @media (max-width: 440px) {
-//     .home {
-//         .wave-container {
-//             bottom: -90px;
-//         }
-//     }
-// }
+@media (max-width: 393px) {
+    .home {
+        .wave-container {
+            bottom: -110px;
+        }
+    }
+}
 
 @media (max-width: 376px) {
 
@@ -98,7 +98,15 @@
         }
 
         .wave-container {
-            bottom: 0;
+            bottom: -140px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .home {
+        .wave-container {
+            bottom: -110px;
         }
     }
 }
