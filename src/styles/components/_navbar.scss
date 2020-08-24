@@ -30,30 +30,41 @@
         float: left;
     }
 
-    &-wraper {
+    &-desktop {
         float: right;
+        padding-top: rem(15px);
+
+        a {
+            margin-right: 22px;
+            display: block;
+            min-width: 70px;
+            float: left;
+            // border-bottom: 3px solid transparent;
+            line-height: 37px;
+
+        }
     }
 
-    .menu-btn {
-        display: none;
-    }
+    // .menu-btn {
+    //     display: none;
+    // }
 }
 
-nav section {
-    padding-top: rem(15px);
-}
+// nav section {
+// padding-top: rem(15px);
+// }
 
 nav section a {
     color: #000000;
-    margin-right: 22px;
+    // margin-right: 22px;
     font-size: 15px;
     cursor: pointer;
-    display: block;
-    min-width: 70px;
+    // display: block;
+    // min-width: 70px;
     text-align: center;
-    border-bottom: 3px solid transparent;
-    float: left;
-    line-height: 37px;
+    // border-bottom: 3px solid transparent;
+    // float: left;
+    // line-height: 37px;
 
 }
 
