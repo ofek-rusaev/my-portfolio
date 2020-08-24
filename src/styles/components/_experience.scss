@@ -26,18 +26,21 @@
 
     &-cv {
         color: #fff;
-        text-align: center;
-        letter-spacing: 1px;
-        font-size: 13px;
+        max-width: rem(200px);
         cursor: pointer;
         background: #00cdb9;
+        letter-spacing: 1px;
         border-radius: 50px;
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
+
+        margin: auto;
+        margin-top: rem(30px);
+        display: block;
         min-height: 44px;
-        padding: 10px 30px;
-        max-width: rem(200px);
-        // margin: auto;
+        padding: 10px 20px;
+        font-size: rem(13px);
+        // text-align: center;
     }
 }
 
