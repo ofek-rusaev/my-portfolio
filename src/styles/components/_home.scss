@@ -89,8 +89,13 @@
 }
 
 @media (max-width: 376px) {
+    .home:before {
+        height: 76%;
+    }
 
     .home {
+        height: 76.7vh;
+
         &-inner {
             h1 {
                 font-size: rem(20px);
@@ -98,7 +103,7 @@
         }
 
         .wave-container {
-            bottom: -140px;
+            bottom: -50px;
         }
     }
 }
