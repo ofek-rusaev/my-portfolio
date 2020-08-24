@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+
 
 class Contact extends Component {
     constructor(props) {
@@ -11,7 +15,10 @@ class Contact extends Component {
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-    }
+    };
+
+
+
     handleChange = (e) => {
         this.setState({ [e.target.name]: e.target.value });
     };
@@ -37,6 +44,9 @@ class Contact extends Component {
 
 
     render() {
+        const phoneIcon = <FontAwesomeIcon icon={faPhoneSquareAlt} />;
+        const emailIcon = <FontAwesomeIcon icon={faEnvelopeSquare} />;
+
         return (
             <div id="contact" className="contact">
                 <section className="section-title">
@@ -74,7 +84,12 @@ class Contact extends Component {
                         <input className="contact-form-submit" id="submit" type="submit" value="SEND A MESSAGE" />
                     </div>
                 </form>
-
+                <div className="contact-info">
+                    {/* <p><span>{emailIcon}</span> ofek2602@gmail.com &nbsp;&nbsp;||&nbsp;&nbsp;
+                     <span>{phoneIcon}</span> +972(502)776771</p> */}
+                    <p><span>{emailIcon}</span> ofek2602@gmail.com</p>
+                    <p><span>{phoneIcon}</span> +972(502)776771</p>
+                </div>
             </div>
         );
     }

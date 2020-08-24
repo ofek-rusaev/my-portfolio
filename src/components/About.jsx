@@ -17,7 +17,8 @@ import nodejsLogo from '../images/skills/nodejs.png'
 import npmLogo from '../images/skills/npm.png'
 import gitLogo from '../images/skills/git.png'
 import bootstrapLogo from '../images/skills/bootstrap.png'
-import materializeLogo from '../images/skills/materialize.png'
+// import materializeLogo from '../images/skills/materialize.png'
+import firebaseLogo from '../images/skills/fb.jpg'
 
 
 
@@ -48,10 +49,11 @@ const About = () => {
                 <img src={reactLogo} title="React" alt="" />
                 <img src={ngLogo} title="Angular" alt="" />
                 <img src={nodejsLogo} title="Node.js" alt="" />
+                <img src={firebaseLogo} title="Firebase" alt="" />
                 <img src={npmLogo} title="NPM" alt="" />
                 <img src={gitLogo} title="Git" alt="" />
                 <img src={bootstrapLogo} title="Bootstrap" alt="" />
-                <img src={materializeLogo} title="Materialize" alt="" />
+                {/* <img src={materializeLogo} title="Materialize" alt="" /> */}
             </section>
         </div>
     );

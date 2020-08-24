@@ -9,13 +9,17 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            <a href="https://www.linkedin.com/in/ofek-rusaev/" target="_blank" rel="noopener noreferrer">
-                {linkedinIcon}
-            </a>
-            <a href="https://github.com/ofek-rusaev" target="_blank" rel="noopener noreferrer">
-                {githubIcon}
-            </a>
+            <div className="footer-links">
 
+                <a href="https://www.linkedin.com/in/ofek-rusaev/" target="_blank" rel="noopener noreferrer">
+                    {linkedinIcon}
+                </a>
+                <a href="https://github.com/ofek-rusaev" target="_blank" rel="noopener noreferrer">
+                    {githubIcon}
+                </a>
+            </div>
+
+            <small>Main photo credit - <span>Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small>
         </div>
     );
 }
