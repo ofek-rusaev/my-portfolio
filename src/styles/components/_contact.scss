@@ -30,6 +30,23 @@
     .section-title {
         padding-bottom: 40px;
     }
+
+    &-email,
+    &-phone {
+        cursor: pointer;
+        font-size: 0.875rem;
+        margin-top: 1.25rem;
+        line-height: 1.5rem;
+        color: #777777;
+        border: none;
+        background-color: inherit;
+
+        span {
+            font-size: 20px;
+            color: #33d6c6;
+            // color: rgba(121, 9, 200, 0.8);
+        }
+    }
 }
 
 @media (max-width: 440px) {

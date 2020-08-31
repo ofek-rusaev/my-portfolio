@@ -82,15 +82,21 @@
 
 @media (max-width: 393px) {
     .home {
+
         .wave-container {
             bottom: -110px;
         }
     }
 }
 
-@media (max-width: 376px) {
-
+@media (max-width: 394px) {
     .home {
+        height: 93vh;
+
+        &:before {
+            height: 93%;
+        }
+
         &-inner {
             h1 {
                 font-size: rem(20px);
@@ -98,15 +104,15 @@
         }
 
         .wave-container {
-            bottom: -140px;
+            bottom: -120px;
         }
     }
 }
 
-@media (max-width: 360px) {
-    .home {
-        .wave-container {
-            bottom: -110px;
-        }
-    }
-}
+// @media (max-width: 360px) {
+//     .home {
+//         .wave-container {
+//             bottom: -110px;
+//         }
+//     }
+// }

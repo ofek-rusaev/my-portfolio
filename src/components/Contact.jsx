@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
+// import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -15,9 +16,21 @@ class Contact extends Component {
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        // this.onClick = this.onClick.bind(this);
     };
 
+    onEmailClick() {
+        window.location.href = `mailto:ofek2602@gmail.com`;
+    };
 
+    onPhoneClick() {
+        var number = '+972502776771';
+        var url = 'https://api.whatsapp.com/send?phone='
+            + number
+            + '&text='
+            + encodeURIComponent('')
+        return url;
+    };
 
     handleChange = (e) => {
         this.setState({ [e.target.name]: e.target.value });
@@ -44,7 +57,7 @@ class Contact extends Component {
 
 
     render() {
-        const phoneIcon = <FontAwesomeIcon icon={faPhoneSquareAlt} />;
+        const phoneIcon = <FontAwesomeIcon icon={faWhatsappSquare} />;
         const emailIcon = <FontAwesomeIcon icon={faEnvelopeSquare} />;
 
         return (
@@ -87,8 +100,9 @@ class Contact extends Component {
                 <div className="contact-info">
                     {/* <p><span>{emailIcon}</span> ofek2602@gmail.com &nbsp;&nbsp;||&nbsp;&nbsp;
                      <span>{phoneIcon}</span> +972(502)776771</p> */}
-                    <p><span>{emailIcon}</span> ofek2602@gmail.com</p>
-                    <p><span>{phoneIcon}</span> +972(502)776771</p>
+                    <button className="contact-email" onClick={this.onEmailClick}><span>{emailIcon}</span> ofek2602@gmail.com</button>
+                    <button className="contact-phone" onClick={this.onPhoneClick}><span>{phoneIcon}</span> +972(502)776771</button>
+                    {/* <p><span>{phoneIcon}</span> +972(502)776771</p> */}
                 </div>
             </div>
         );
