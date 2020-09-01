@@ -29,7 +29,8 @@ class Contact extends Component {
             + number
             + '&text='
             + encodeURIComponent('')
-        return url;
+        // return url;
+        window.location.href = url;
     };
 
     handleChange = (e) => {
@@ -98,11 +99,8 @@ class Contact extends Component {
                     </div>
                 </form>
                 <div className="contact-info">
-                    {/* <p><span>{emailIcon}</span> ofek2602@gmail.com &nbsp;&nbsp;||&nbsp;&nbsp;
-                     <span>{phoneIcon}</span> +972(502)776771</p> */}
                     <button className="contact-email" onClick={this.onEmailClick}><span>{emailIcon}</span> ofek2602@gmail.com</button>
                     <button className="contact-phone" onClick={this.onPhoneClick}><span>{phoneIcon}</span> +972(502)776771</button>
-                    {/* <p><span>{phoneIcon}</span> +972(502)776771</p> */}
                 </div>
             </div>
         );

@@ -91,10 +91,12 @@
 
 @media (max-width: 394px) {
     .home {
-        height: 93vh;
+        // height: 93vh; ofeks prop
+        height: 90vh;
 
         &:before {
-            height: 93%;
+            // height: 93%; ofeks prop
+            height: 90vh;
         }
 
         &-inner {
